@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.lightGreen,
         backgroundColor: Colors.lightGreen,
+        canvasColor: Colors.lightGreen.shade100,
         // This makes the visual density adapt to the platform that you run
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
@@ -99,11 +100,37 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
+              'Push the button to see the update ',
+              textAlign: TextAlign.center,
+               style: TextStyle(
+                 fontWeight: FontWeight.bold,
+                 fontSize: 20,
+               ),
+
+            ),
+            Text(
+              '😃',
+              style: TextStyle(
+                fontSize: 50,
+              ),
+
+            ),
+            Text(
               'You have pushed the button this many times:',
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color : Colors.blue[700],
+                fontSize: 20,
+
+              ),
+
             ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
+              textAlign: TextAlign.center,
+
             ),
           ],
         ),
