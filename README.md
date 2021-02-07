@@ -3,9 +3,9 @@
 A new Flutter application.
 
 App demo video
-|  Android |iOS  |
+|  iOS |Android  |
 | ------------- | ------------- |
-| <img src='https://recordit.co/Eeh0qS5uth.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> |<img src='https://recordit.co/X70474AAO4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' |
+| <img src='https://recordit.co/Eeh0qS5uth.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' /> |<img src='https://recordit.co/X70474AAO4.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />|
 
 ## Getting Started
 
